@@ -44,7 +44,7 @@ fn the_community_link_lands_on_the_readmes_community_section() {
 #[test]
 fn home_screen_links() {
     for (label, url) in [
-        ("Join the community", "https://github.com/andriyanto/pdfku#komunitas"),
+        ("Join the WhatsApp group", "https://github.com/andriyanto/pdfku#komunitas"),
         ("Discussions", "https://github.com/andriyanto/pdfku/discussions"),
         ("PdfKu on GitHub", "https://github.com/andriyanto/pdfku"),
         ("PdfKu web page", "https://github.com/andriyanto/pdfku#readme"),
@@ -89,7 +89,7 @@ fn about_dialog_shows_the_app_and_its_links() {
     h.get_by_label("Report a problem").click();
     h.run_steps(2);
     assert_eq!(h.state().last_opened_url.as_deref(), Some(links::ISSUES));
-    h.get_by_label("Join the community").click();
+    h.get_by_label("Join the WhatsApp group").click();
     h.run_steps(2);
     assert_eq!(h.state().last_opened_url.as_deref(), Some(links::COMMUNITY));
     settled(&mut h, "Contributors").click();

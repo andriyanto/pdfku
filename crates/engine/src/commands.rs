@@ -436,7 +436,7 @@ pub const COMMANDS: &[CommandSpec] = &[
     c("prepress.hairlines", "Fix hairlines…", None, None, Modification, "minus"),
     c("page.properties", "Page properties…", PAGES, None, Modification, "info"),
     c("help.shortcuts", "Keyboard shortcuts", HELP, None, Nothing, "circle-help"),
-    c("help.community", "Join the community", HELP, None, Nothing, "users"),
+    c("help.community", "Join the WhatsApp group", HELP, None, Nothing, "users"),
     c("help.discussions", "Discussions", HELP, None, Nothing, "message-square"),
     c("help.issues", "Report a problem", HELP, None, Nothing, "messages-square"),
     c("help.app_page", "PdfKu web page", HELP, None, Nothing, "globe"),

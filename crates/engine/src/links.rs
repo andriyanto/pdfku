@@ -32,7 +32,7 @@ pub struct Link {
 
 /// In the order they are shown. The community comes first and is the prominent one.
 pub const LINKS: &[Link] = &[
-    Link { command: "help.community", label: "Join the community", url: COMMUNITY, icon: "users" },
+    Link { command: "help.community", label: "Join the WhatsApp group", url: COMMUNITY, icon: "users" },
     Link { command: "help.discussions", label: "Discussions", url: DISCUSSIONS, icon: "message-square" },
     Link { command: "help.issues", label: "Report a problem", url: ISSUES, icon: "messages-square" },
     Link { command: "help.github", label: "PdfKu on GitHub", url: GITHUB, icon: "code-xml" },

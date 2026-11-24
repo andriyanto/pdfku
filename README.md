@@ -97,7 +97,7 @@ Rinciannya ada di [crates/automation/README.md](crates/automation/README.md) dan
 
 ## Komunitas
 
-Tombol **Join the community** di PdfKu membuka bagian ini.
+Tombol **Join the WhatsApp group** di PdfKu membuka bagian ini.
 
 - **Grup WhatsApp:** [Gabung grup komunitas PdfKu](https://chat.whatsapp.com/JpizPcsTktLBWRuWzyg00t) untuk tanya jawab santai dan
   kabar terbaru. Nomor HP Anda terlihat oleh anggota lain di grup, jadi bergabunglah hanya jika
